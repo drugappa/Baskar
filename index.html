@@ -51,6 +51,11 @@
             padding: 10px;
             border-radius: 10px;
         }
+        .ul:hover{
+            opacity: 0.6;
+            color: wheat;
+            background-color: green;
+        }
          a{
             color: #FFFFFF;
             text-decoration: none;
@@ -70,6 +75,20 @@
             border-radius: 15px;
             margin-top: 20px;
             margin-bottom: 20px;
+        }
+        .noclass{
+            padding: 10px;
+            border: 2px solid;
+            background-color: black;
+            color: #FFFFFF;
+            box-shadow: 10px 5px 10px #fff;
+            margin-bottom: 10px;
+            cursor: pointer;
+            border-radius: 20px;
+        }
+        .noclass:hover{
+            opacity: 0.7;
+            
         }
 
         @media(max-width:576px){
@@ -115,7 +134,7 @@
                     <p>Join The Class</p> 
                    </ul>
                    <ul>
-                    <a href="Wa.me/*919606729320"><i class="fa-regular fa-comment"></i></a>
+                    <a href="Wa.me/919606729320"><i class="fa-regular fa-comment"></i></a>
                     <p>Any dowt chat </p> 
                    </ul>
                    
@@ -136,7 +155,7 @@
 
          function Creyetingmeeting(){
             let date=new Date();
-            if(date.getHours()>=10 && date.getHours()<=12){
+            if(date.getHours()>=10 && date.getHours()<=11 && date.getMinutes()<=50){
                 container1.innerHTML=`
                 <section class="card"><center>
                 <h1>Baskar Antoniy</h1>
@@ -146,17 +165,16 @@
                     <a class='ul' href="https://meet.google.com/bxi-tbdr-pti"><i id="video" class="fa-solid fa-video"></i> 
                     <p>Join The Class</p> 
                         </a>
-                    <a class='ul' href="Wa.me/*919606729320"><i class="fa-regular fa-comment"></i> <p>Any dowt chat </p> </a>   
+                    <a class='ul' href="wa.me/919606729320"><i class="fa-regular fa-comment"></i> <p>Any dowt chat </p> </a>   
                 </div>
                 <br>
                 <br><center/><center>
                 <h1><span>JAVASCRIPT</span> Class</h1><br/>
-                <a href="./javascript.pdf " download>download</a><br><br>
-                  
+                <a class="btn" href="./javascript.pdf " download>download</a><br><br> 
                 <h1>Class Start In 10am To 12pm</h1></center>
                </section>
                 `
-            }else if(date.getHours()>=12 && date.getHours()<=14){
+            }else if(date.getHours()>=12 && date.getHours()<=13 && date.getMinutes()<=50){
                 container1.innerHTML=`
                 <section class="card"><center>
                 <h1>Baskar Antoniy</h1>
@@ -166,7 +184,7 @@
                     <a class='ul' href="https://meet.google.com/bxi-tbdr-pti"><i id="video" class="fa-solid fa-video"></i> 
                     <p>Join The Class</p> 
                         </a>
-                    <a class='ul' href="Wa.me/*919606729320"><i class="fa-regular fa-comment"></i> <p>Any dowt chat </p> </a>
+                    <a class='ul' href="wa.me/919606729320"><i class="fa-regular fa-comment"></i> <p>Any dowt chat </p> </a>
                 </div>
                 <br>
                 <br><center/><center>
@@ -175,7 +193,7 @@
                 <h1>Class Start In 12pm To 02pm</h1></center>
                </section>
                 `
-            }else if(date.getHours()>=15 && date.getHours()<=17){
+            }else if(date.getHours()>=15 && date.getHours()<=16 && date.getMinutes()<=50){
                 container1.innerHTML=`
                  <section class="card"><center>
                 <h1>Baskar Antoniy</h1>
@@ -185,7 +203,7 @@
                     <a class='ul' href="https://meet.google.com/bxi-tbdr-pti"><i id="video" class="fa-solid fa-video"></i> 
                     <p>Join The Class</p> 
                         </a>
-                    <a class='ul' href="Wa.me/*919606729320"><i class="fa-regular fa-comment"></i> <p>Any dowt chat </p> </a>
+                    <a class='ul' href="wa.me/919606729320"><i class="fa-regular fa-comment"></i> <p>Any dowt chat </p> </a>
                 </div>
                 <br>
                 <br><center/><center>
@@ -195,7 +213,8 @@
                 <h1>Class Start In 03pm To 05pm</h1></center>
                </section>
                 `
-            }else if(date.getHours()>=17 && date.getHours()<=19){
+            }else
+             if(date.getHours()>=17 && date.getHours()<=18 && date.getMinutes()<=50){
                 container1.innerHTML=`
                  <section class="card"><center>
                 <h1>Baskar Antoniy</h1>
@@ -205,7 +224,7 @@
                     <a class='ul' href="https://meet.google.com/bxi-tbdr-pti"><i id="video" class="fa-solid fa-video"></i> 
                     <p>Join The Class</p> 
                         </a>
-                    <a class='ul' href="Wa.me/*919606729320"><i class="fa-regular fa-comment"></i> <p>Any dowt chat </p> </a>
+                    <a class='ul' href="wa.me/919606729320"><i class="fa-regular fa-comment"></i> <p>Any dowt chat </p> </a>
                 </div>
                 <br>
                 <br><center/><center>
@@ -215,7 +234,8 @@
                 <h1>Class Start In 05pm To 07pm</h1></center>
                </section>
                 `
-            }else if(date.getHours()>=19 && date.getHours()<=21){
+            }else
+             if(date.getHours()>=19 && date.getHours()<=20 && date.getMinutes()<=50){
                 container1.innerHTML=`
                  <section class="card"><center>
                 <h1>Baskar Antoniy</h1>
@@ -225,7 +245,7 @@
                     <a class='ul' href="https://meet.google.com/bxi-tbdr-pti"><i id="video" class="fa-solid fa-video"></i> 
                     <p>Join The Class</p> 
                         </a>
-                    <a class='ul' href="Wa.me/*919606729320"><i class="fa-regular fa-comment"></i> <p>Any dowt chat </p> </a>
+                    <a class='ul' href="wa.me/919606729320"><i class="fa-regular fa-comment"></i> <p>Any dowt chat </p> </a>
                 </div>
                 <br>
                 <br><center/><center>
@@ -246,7 +266,33 @@
                 <br>
                 <i id="timeimg" class="fa-solid fa-hourglass-start"></i>
                 <h4>Class Will Start Wait</h4><br/>
-                <h1>Next Class Will <span>10am</span></h1>    
+                    
+                <br>
+
+                <div class="noclass">
+                <h3>Class Time</h3> <br>
+                <p>10Am To 12Pm <span>JAVASCRIPT</span></p>
+                </div>
+
+                 <div class="noclass">
+                <h3>Class Time</h3> <br>
+                <p>12Pm To 02Am <span>REACT</span></p>
+                </div>
+
+                 <div class="noclass">
+                <h3>Class Time</h3> <br>
+                <p>03Pm To 05Pm <span>JAVASCRIPT</span></p>
+                </div>
+
+                 <div class="noclass">
+                <h3>Class Time</h3> <br>
+                <p>05pm To 07Pm <span>CSS</span></p>
+                </div>
+
+                 <div class="noclass">
+                <h3>Class Time</h3> <br>
+                <p>07Pm To 09Pm <span>JAVASCRIPT</span></p>
+                </div>
                 </center>
                 `
             }console.log(date.getHours());
